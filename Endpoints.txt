@@ -1,0 +1,47 @@
+Swagger endpoint: http://localhost:8080/swagger-ui.html#
+
+H2 Console: http://localhost:8080/h2-console
+H2 Username: sa
+H2 Password: password
+
+Speed Create Payload:
+
+[
+    {
+        "speed": 10,
+        "uom": "GBPS"
+    }
+]
+
+
+Metro Create Payload:
+
+[
+    {
+        "metro": "LD"
+    }
+]
+
+
+Service Profile Create Payload:
+
+{
+    "name": "Hello",
+    "serviceProfileSpeeds": [
+        {
+            "id": 1,
+            "speed": 100,
+            "uom": "GBPS"
+        }
+    ],
+    "serviceProfileMetros": [
+        {
+            "id": 2,
+            "metro": "LD"
+        }
+    ]
+
+}
+
+
+
